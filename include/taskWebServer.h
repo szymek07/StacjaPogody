@@ -17,7 +17,7 @@
 #include <settings.h>
 #include <version.h>
 
-#define AP_SSID "SINUX WX AP"
+#define AP_SSID "SINUX_WX AP"
 #define AP_PASS "sinux2021"
 
 extern ESP8266WebServer server;

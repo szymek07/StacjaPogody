@@ -67,6 +67,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./.pio/build/SINUX WX/firmware.bin
+          asset_path: ./.pio/build/SINUX_WX/firmware.bin
           asset_name: firmware-${{ steps.date.outputs.date }}.bin
           asset_content_type: application/octet-stream

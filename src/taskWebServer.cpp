@@ -359,7 +359,7 @@ void connect_to_wifi(){
   }
   if(WiFi.status() != WL_CONNECTED){
     Serial.println("\nWifi NOT Connected!");
-    Serial.println("Activating AP HotSpot look for SINUX WX AP with pass: sinux2021");
+    Serial.println("Activating AP HotSpot look for SINUX_WX AP with pass: sinux2021");
     WiFi.disconnect(true);
     WiFi.softAP(AP_SSID, AP_PASS, 7);
     Serial.print("NodeMCU IP Address : ");   
